@@ -7,7 +7,7 @@ class Material(models.Model):
         "oz": "ounces",
         "bdft": "boardfeet",
         "count": "count",
-        "feet": "feet"
+        "feet": "feet",
     }
     quantity = models.DecimalField()
     price = models.DecimalField()
