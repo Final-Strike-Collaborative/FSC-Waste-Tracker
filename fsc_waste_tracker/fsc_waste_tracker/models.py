@@ -7,8 +7,9 @@ class Material(models.Model):
         "oz": "ounces",
         "bdft": "boardfeet",
         "count": "count",
+        "feet": "feet"
     }
-    note = models.CharField()
     quantity = models.DecimalField()
     price = models.DecimalField()
     unit_of_measure = UNIT_OF_MEASURE_CHOICES
+    note = models.CharField()
