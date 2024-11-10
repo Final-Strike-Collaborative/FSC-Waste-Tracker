@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "core"
 ]
 
 MIDDLEWARE = [
@@ -77,6 +78,7 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
         "HOST":"localhost",
+        "NAME":"fsc_waste_tracker",
         "USER":"fsc_waste_tracker",
         "PASSWORD":"password123",
         "OPTIONS": {
