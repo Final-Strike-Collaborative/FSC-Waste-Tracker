@@ -76,8 +76,10 @@ WSGI_APPLICATION = "fsc_waste_tracker.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
+        "HOST":"localhost",
+        "USER":"fsc_waste_tracker",
+        "PASSWORD":"password123",
         "OPTIONS": {
-            "service": "fsc_waste_tracker",
             "passfile": ".my_pgpass",
         },
     }

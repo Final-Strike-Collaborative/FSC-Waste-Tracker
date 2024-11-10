@@ -13,3 +13,8 @@ class Material(models.Model):
     price = models.DecimalField()
     unit_of_measure = UNIT_OF_MEASURE_CHOICES
     note = models.CharField()
+
+class Receipt(models.Model):
+    note = models.CharField()
+    grand_total = models.DecimalField()
+
