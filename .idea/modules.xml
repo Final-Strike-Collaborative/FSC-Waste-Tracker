@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/FSC-Waste-Tracker.iml" filepath="$PROJECT_DIR$/.idea/FSC-Waste-Tracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rails_waste_tracker.iml" filepath="$PROJECT_DIR$/.idea/modules/rails_waste_tracker.iml" />
     </modules>
   </component>
 </project>
